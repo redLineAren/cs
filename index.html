@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--告诉浏览器这是啥-->
+<html lang="zh"><!--网页用什么语言，填zh就行-->
+<head> <!--一般存放一些信息和网页里看不见的东西-->
+<meta charset="UTF-8"><!--没有这个大部分浏览器显示你网页的文字会乱码-->
+<title>代码不会就多练</title><!--你网页的标题，但是这个是看不见的-->
+<link rel="stylesheet" href="style.css"><!--引用css文件，href后面写文件名-->
+</head>
+<!--             下方为正文                  -->
+<body>
+<center><h2>这是一个练手网页!</h2></center><!--这个标签表示标题数字越小文字越大，最小1，最大6-->
+<ins><center><h3>因为我的html太拉了</h3></center></ins>
+<!--center这个标签可以让文字居中-->
+<hr/><!--插入水平线-->
+<p id="typewriter"></p><!--一段慢慢打字出现的文字-->
+<p>这是一段普通文字!</p><!--就是正常的一个句子-->
+<em>这个文本咋斜了？</em>
+</br>
+<a href="https://www.runoob.com" id="myLink1" onclick="this.innerText='跳转中...'; setTimeout(() => { window.location.href='https://www.runoob.com'; }, 1000); return false;"       style="text-decoration:none;">查看详细教程</a>
+</br><!--让文字另起一行-->
+<a href="/potato.html" id="myLink2" onclick="this.innerText='跳转中...'; setTimeout(() => { window.location.href='/potato.html'; }, 1000); return false;"style="text-decoration:none;">查看html格式</a> <!--复杂一点但是非常好用的链接方式-->
+<!--style="text-decoration:none;"是让链接没有下划线-->
+</br>
+<a href="     " id="myLink" onclick="this.innerText='跳转中...'; setTimeout(() => { window.location.href='      '; }, 1000); return false;"       style="text-decoration:none;">玩点东西？</a>
+
+
+
+<footer>
+<address>
+创作者：redLineAren<br>
+qq：3696101640
+</address>
+</footer>
+<p>redLineAren爱看<del>91和糖心</del></p>
+<!--下面是尾巴没必要动-->
+<script src="main.js"></script><!--告诉网页你要用这个js文件-->
+</body>
+</html>
